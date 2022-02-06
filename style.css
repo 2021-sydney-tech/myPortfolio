@@ -1,0 +1,68 @@
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+.top-nav {
+    min-height: 60vh;
+    background: linear-gradient(90deg, #1919de, #00d4ff);
+    background: url(./assets/3d1.jpg) no-repeat center center;
+    background-size: cover;
+    
+}
+a.nav-link{
+    font-weight: bold;
+    color: #efebec !important;
+    letter-spacing: 0.1em;
+    padding: 20px !important;
+    font-size: 18px !important;
+}
+
+a.nav-link:hover {
+    color: #6b1a1e !important;
+    /* cursor: pointer !important; */
+}
+.row {
+    color: #efebec !important;
+}
+.sec-title {
+    border-bottom: #a60e15 solid 10px;
+    width: 220px;   
+
+}
+.projects {
+    background: #44576e;
+}
+
+.contact-icons {
+    background: pink;
+    min-height: 30vh;
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 3rem;
+}
+
+footer {
+    background: #2e394d;
+    position: relative;
+}
+
+.up {
+    position: absolute;
+    right: 10px;
+    top: -20px;
+    width: 50px;
+    height: 30px;
+    background: white;
+    color: black;
+    font-style: 2rem;
+    border: black solid 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
