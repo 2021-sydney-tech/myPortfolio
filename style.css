@@ -1,5 +1,14 @@
+* {
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
 html {
     scroll-behavior: smooth;
+    
+}
+.navbar-band > img {
+    min-width:70px !important;
+    min-width: 70px !important;
 }
 a {
     text-decoration: none;
@@ -20,31 +29,59 @@ a.nav-link{
 }
 
 a.nav-link:hover {
-    color: #6b1a1e !important;
-    /* cursor: pointer !important; */
+    background:#6b1a1e;
+    /*color: #6b1a1e !important;*/
 }
+
 .row {
     color: #efebec !important;
 }
+
 .sec-title {
     border-bottom: #a60e15 solid 10px;
     width: 220px;   
-
 }
+#skills {
+    background:#eceeed;
+    min-height: 50vh;
+}
+
+#about {
+    background:#eceeed;
+    min-height: 50vh;
+}
+
 .projects {
     background: #44576e;
 }
 
+.links a i{
+    font-size: 2rem!important;
+    color: #6b1a1e;
+}
+.links i:hover {
+    color: #0d6efd;
+}
 .contact-icons {
-    background: pink;
     min-height: 30vh;
 }
 .icons {
-    display: flex;
-    justify-content: space-around;
-    font-size: 3rem;
+    /*display: flex;
+    justify-content: center;
+    font-size: 3rem;*/
+    font-size: 2rem;
+}
+.icons i {
+    padding: 0px 20px 20px;
+    color: #6b1a1e;
+}
+.icons a i:hover {
+    color: #0d6efd;
 }
 
+#contact {
+    background:#eceeed;
+}
 footer {
     background: #2e394d;
     position: relative;
