@@ -42,25 +42,25 @@ a.nav-link:hover {
     width: 220px;   
 }
 #skills {
-    background:#eceeed;
+    background:#e0e4e3;
     min-height: 50vh;
 }
 
 #about {
-    background:#eceeed;
+    background:#e0e4e3;
     min-height: 50vh;
 }
 
 .projects {
-    background: #44576e;
+    background: #2c394c;
 }
 
 .links a i{
     font-size: 2rem!important;
-    color: #6b1a1e;
+    color: #0d6efd;
 }
 .links i:hover {
-    color: #0d6efd;
+    color: #6b1a1e;
 }
 .contact-icons {
     min-height: 30vh;
@@ -80,7 +80,7 @@ a.nav-link:hover {
 }
 
 #contact {
-    background:#eceeed;
+    background:#e0e4e3;
 }
 footer {
     background: #2e394d;
