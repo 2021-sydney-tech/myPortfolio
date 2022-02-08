@@ -57,11 +57,13 @@ a.nav-link:hover {
 
 .links a i{
     font-size: 2rem!important;
-    color: #0d6efd;
+    color: #9f536e;
 }
 .links i:hover {
     color: #6b1a1e;
 }
+
+
 .contact-icons {
     min-height: 30vh;
 }
@@ -73,10 +75,10 @@ a.nav-link:hover {
 }
 .icons i {
     padding: 0px 20px 20px;
-    color: #6b1a1e;
+    color: #9f536e;
 }
 .icons a i:hover {
-    color: #0d6efd;
+    color: #6b1a1e;
 }
 
 #contact {
